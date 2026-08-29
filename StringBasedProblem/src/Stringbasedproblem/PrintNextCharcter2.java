@@ -1,6 +1,6 @@
 package Stringbasedproblem;
 import java.util.Scanner;
-public class ReverseAstring2 {
+public class PrintNextCharcter2  {
 	    static String reverseString(String str){
 	    String empStr="";
 	       for(int i=0;i<str.length();i++){
@@ -15,7 +15,7 @@ public class ReverseAstring2 {
 			System.out.print("Enter the sequence of character");
 			Scanner in = new Scanner(System.in);
 			String str = in.nextLine();
-			System.out.println(ReverseAstring2.reverseString(str));
+			System.out.println(PrintNextCharcter2.reverseString(str));
 			in.close();
 			}
 	}
