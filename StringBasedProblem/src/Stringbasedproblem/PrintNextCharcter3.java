@@ -31,3 +31,4 @@ public class PrintNextCharcter3 {
         in.close();
     }
 }
+
