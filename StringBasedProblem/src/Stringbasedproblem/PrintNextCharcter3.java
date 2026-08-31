@@ -1,6 +1,5 @@
 package Stringbasedproblem;
 import java.util.Scanner;
-
 public class PrintNextCharcter3 {
     public static void main(String[] args) {
         System.out.println("Enter the sequence of Characters");    
@@ -24,11 +23,6 @@ public class PrintNextCharcter3 {
             }
             System.out.print(ch);
         }
-        
-
-        
-
         in.close();
     }
 }
-
