@@ -33,9 +33,7 @@ public class mixedoperation {
 					out %= val;	
 				}
 				break;
-				}
-				
-				
+				}				
 			}
 			
 		}
