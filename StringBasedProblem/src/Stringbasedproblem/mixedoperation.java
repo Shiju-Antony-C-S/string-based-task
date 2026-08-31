@@ -5,7 +5,7 @@ public class mixedoperation {
 		Scanner in = new Scanner(System.in);
 		String str = in.nextLine();
 		 int out = str.charAt(0) - '0';
-		for(int i=str.length()/2;i<str.length();i++) {
+		for(int i=(str.length()/2)+1;i<str.length();i++) {
 			{
 				switch(str.charAt(i)) {
 				case '-':{
@@ -28,6 +28,11 @@ public class mixedoperation {
 					out /= val;	
 				}
 				break;
+				case '%':{
+					int val = str.charAt(i-str.length()/2)-'0';
+					out %= val;	
+				}
+				break;
 				}
 				
 				
@@ -35,6 +40,7 @@ public class mixedoperation {
 			
 		}
 		System.out.println(out);	
+		in.close();
 		
 		
 	}
