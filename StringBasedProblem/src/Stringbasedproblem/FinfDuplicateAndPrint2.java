@@ -14,9 +14,7 @@ public class FinfDuplicateAndPrint2 {
 			for(int i=0;i<str.length();i++){
 			    int val = str.charAt(i) - 97;
 			    if(count[val]>0){
-			        System.out.println(str.charAt(i)+" "+count[val]);
-			    }
-			    if(count[val]>1){
+			        System.out.println(str.charAt(i)+"->"+count[val]);
 			        count[val]=0;
 			    }
 			}

@@ -24,7 +24,7 @@ public class FindDuplicateAndPrint {
                 System.out.println(str.charAt(i) + " -> " + count);
             }
 			}
-			
+			in.close();
 		}
 	}	
 
