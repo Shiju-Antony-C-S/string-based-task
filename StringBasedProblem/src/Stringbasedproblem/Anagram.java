@@ -50,7 +50,7 @@ public class Anagram {
         if (isAnagram) {
             System.out.println("The strings are anagrams.");
         } else {
-            System.out.println("The strings are NOT anagrams.");
+            System.out.println("The strings are not anagrams.");
         }
 
     }
